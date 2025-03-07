@@ -3,6 +3,7 @@
 > 如果不知道你在干什么（纯小白），请在**需要存放该项目的位置**打开终端(Win11)或Powershell(win10)，然后**按照下述说明逐步操作**即可  
 > 在进行以下操作前，请确保电脑中有Git和Python>=3.8
 ### 克隆仓库
+打开cmd进入你想放入的目录，这样克隆的项目就进入该目录了
 ```bash
 git clone https://github.com/xiaowangaixuexijishu/Digital_Life_Server_deepseek --recursive
 cd Digital_Life_Server
@@ -38,13 +39,13 @@ python -m venv venv
 .\venv\Scripts\python.exe -m pip install torch==2.0.0+cpu torchvision torchaudio -f https://mirror.sjtu.edu.cn/pytorch-wheels/torch_stable.html
 
 ```
-其余版本组合可以从[这个页面](https://pytorch.org/get-started/locally)获取具体的下载指令  
+其余版本组合可以从[这个页面](https://pytorch.org/get-started/locally)获取具体的下载指令（建议直接运行上面的命令）  
 
 3. 安装项目所需其它依赖项
  ```bash
 .\venv\Scripts\python.exe -m pip install -r requirements_out_of_pytorch.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
  ```
-4. Build `monotonic_align`
+4. Build `monotonic_align`这里如果是直接克隆的可以直接运行，如果是下载的压缩包，会缺少文件
 ```bash
 cd "TTS/vits/monotonic_align"
 mkdir monotonic_align
