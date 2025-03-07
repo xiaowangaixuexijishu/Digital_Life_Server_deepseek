@@ -22,7 +22,7 @@ cd Digital_Life_Server
     pip install -r requirements.txt
     ```
 
-3. Build `monotonic_align`  这里需要注意使用git获取的可以直接执行。
+3. Build `monotonic_align`  这里需要先下载[vits](https://github.com/zixiiu/vits)放入TTS中。
    This may not work that well but you know what that suppose to mean.
    ```bash
    cd "TTS/vits/monotonic_align"
