@@ -4,7 +4,7 @@
 > 在进行以下操作前，请确保电脑中有Git和Python>=3.8
 ### 克隆仓库
 ```bash
-git clone https://github.com/zixiiu/Digital_Life_Server.git --recursive
+git clone https://github.com/xiaowangaixuexijishu/Digital_Life_Server_deepseek --recursive
 cd Digital_Life_Server
 ```
 ### 保姆式配置环境
