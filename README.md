@@ -6,12 +6,12 @@ For other part of the project, please refer to:
 [UE Client](https://github.com/QSWWLTN/DigitalLife) 用于渲染人物动画，录音，和播放声音的前端部分。    
 详细的配置流程可参见[readme_detail.md](readme_detail.md)
 ## Getting stuffs ready to roll:
-### Clone this repo
+### 打开cmd使用命令进入你想将项目放入的文件目录，执行下面的命令
 ```bash
 git clone https://github.com/xiaowangaixuexijishu/Digital_Life_Server_deepseek --recursive
 cd Digital_Life_Server
 ```
-### Install prerequisites
+### 安装依赖项目
 1. install pytorch
     ```bash
     pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
@@ -22,7 +22,7 @@ cd Digital_Life_Server
     pip install -r requirements.txt
     ```
 
-3. Build `monotonic_align`  
+3. Build `monotonic_align`  这里需要注意使用git获取的可以直接执行。
    This may not work that well but you know what that suppose to mean.
    ```bash
    cd "TTS/vits/monotonic_align"
@@ -40,7 +40,7 @@ cd Digital_Life_Server
    TTS Model:  
    to `/TTS/models`
 
-5. （对于**没有**Nvidia显卡的电脑，采用cpu来跑的话）需要额外做一步：
+5. （对于**没有**Nvidia显卡的电脑，采用cpu来跑的话）需要额外做一步（这个我没试过不知道行不行）：
 
    ​	将 Digital_Life_Server\TTS\TTService.py 文件下 36行
 
