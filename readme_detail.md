@@ -45,7 +45,7 @@ python -m venv venv
  ```bash
 .\venv\Scripts\python.exe -m pip install -r requirements_out_of_pytorch.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
  ```
-4. Build `monotonic_align`这里如果是直接克隆的可以直接运行，如果是下载的压缩包，会缺少文件
+4. Build `monotonic_align` 这里需要先下载[vits](https://github.com/zixiiu/vits)放入TTS中
 ```bash
 cd "TTS/vits/monotonic_align"
 mkdir monotonic_align
