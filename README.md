@@ -9,6 +9,7 @@ For other part of the project, please refer to:
 ### Clone this repo
 ```bash
 git clone https://github.com/xiaowangaixuexijishu/Digital_Life_Server_deepseek --recursive
+cd Digital_Life_Server
 ```
 ### Install prerequisites
 1. install pytorch
